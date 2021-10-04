@@ -6,10 +6,10 @@ VAR
     set2:ARRAY_OF INTEGER[10];
      sum: INTEGER:= 0;
 BEGIN
-FOR i FROM 0 TO 9 STEP  DO
+FOR i FROM 0 TO 9 STEP 1 DO
     read(set1[i])                //insert set1
     write(set1[i])
-FOR j FROM 0 TO 9 STEP  DO
+FOR j FROM 0 TO 9 STEP 1 DO
     rea(set2[j])                //insert set2
     write(set2[j])                    
 END_FOR
@@ -35,11 +35,11 @@ VAR
     i,j : INTEGER;
     sum:INTEGER:=0;
 BEGIN
-    FOR i FROM 0 TO 9 STEP  DO
+    FOR i FROM 0 TO 9 STEP 1 DO
         htab.insert(set1[i]);
         write(set1[i]);
     END_FOR
-    FOR  j FROM 0 TO 9 STEP  DO
+    FOR  j FROM 0 TO 9 STEP 1  DO
         htab.insert(set2[j])
         write(set2[j])
     END_FOR
@@ -63,11 +63,11 @@ VAR
     set1:ARRAY_OF INTEGER[10];
     set2:ARRAY_OF INTEGER[10];
 BEGIN
-FOR i FROM 0 TO 9 STEP  DO
+FOR i FROM 0 TO 9 STEP 1 DO
     read(set1[i]);
     write(set1[i])
 END_FOR
-FOR j FROM 0 TO 9 STEP   DO
+FOR j FROM 0 TO 9 STEP 1  DO
     read(set2[j]);
     write(set2[j]);
 END_FOR
@@ -92,11 +92,11 @@ VAR
     i,j : INTEGER;
     sum:INTEGER:=0;
 BEGIN
-    FOR i FROM 0 TO 9 STEP  DO
+    FOR i FROM 0 TO 9 STEP 1 DO
         htab.insert(set1[i]);
         write(set1[i]);
     END_FOR
-    FOR  j FROM 0 TO 9 STEP  DO
+    FOR  j FROM 0 TO 9 STEP 1 DO
         htab.insert(set2[j])
         write(set2[j])
     END_FOR
