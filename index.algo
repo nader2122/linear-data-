@@ -10,7 +10,7 @@ FOR i FROM 0 TO 9 STEP 1 DO
     read(set1[i])                //insert set1
     write(set1[i])
 FOR j FROM 0 TO 9 STEP 1 DO
-    rea(set2[j])                //insert set2
+    read(set2[j])                //insert set2
     write(set2[j])                    
 END_FOR
 END_FOR
@@ -84,7 +84,7 @@ END_WHILE
 END
 
 //deuxieme methode
-ALGORITHM sum_distinct
+ALGORITHM overlapping
 VAR
     htab: HASH_TABLE <INTEGER>;
     set1:ARRAY_OF INTEGER[10]
